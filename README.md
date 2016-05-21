@@ -50,3 +50,16 @@ TODO:
 
 1. 有時間的話作個 benchmark
 
+## 0521 update:
+
+相關數據在 statics 裡，含測試的 t2.micro 共花費 8.10 USD
+
+EC2 m3.medium *2 + EC2 t2.micro * 1
+redis t2.micro
+
+EC2	$5.85
+ElastiCache	$2.16
+DataTransfer	$0.05
+S3	$0.04
+Other Services	$0.00
+Tax	$0.00
